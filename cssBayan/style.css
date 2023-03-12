@@ -48,6 +48,11 @@ details:not([open])>summary>i.fa-xmark{
 .accordion__img:hover{
     opacity:0.7;
 }
+@media(hover:hover){
+    .accordion__item:hover>summary{
+        color:blue;
+       }
+}
 @media(min-width:320px){
     .accordion{
         width: 90%;
@@ -70,11 +75,7 @@ details:not([open])>summary>i.fa-xmark{
             font-size: 1.5rem;
         }
          };
-@media(min-width:1024px){
-    .accordion__item:hover>summary{
-        color:blue;
-       }
-}         
+       
 @media(min-width:1920px){
     .accordion{
         width: 70%;
