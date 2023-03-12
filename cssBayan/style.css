@@ -71,8 +71,8 @@ details:not([open])>summary>i.fa-xmark{
         .accordion__parag{
             font-size: 1.5rem;
         }
-        /* }
-/* @media(min-width:1920px){
+         }
+@media(min-width:1920px){
     .accordion{
         width: 70%;
     }
@@ -85,7 +85,7 @@ details:not([open])>summary>i.fa-xmark{
     .accordion__parag{
         font-size: 3rem;
     }
-    }  */
+    } 
 
 
 
