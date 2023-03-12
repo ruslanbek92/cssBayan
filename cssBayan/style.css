@@ -21,9 +21,7 @@ body{
     padding:0.3rem;
 }
 
-.accordion__item:hover>summary{
- color:blue;
-}
+
 details>summary{
     list-style: none;
     display: flex;
@@ -71,7 +69,12 @@ details:not([open])>summary>i.fa-xmark{
         .accordion__parag{
             font-size: 1.5rem;
         }
-         }
+         };
+@media(min-width:1024px){
+    .accordion__item:hover>summary{
+        color:blue;
+       }
+}         
 @media(min-width:1920px){
     .accordion{
         width: 70%;
